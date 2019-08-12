@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168EE3D6CBD62F010E328BCB /* Pods_MemeriaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD392414E3F5FCFBE3DEA33 /* Pods_MemeriaTests.framework */; };
+		1EA1505F22F1FD0B00AC584D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA1505E22F1FD0B00AC584D /* AppDelegate.swift */; };
+		1EA1506122F1FD0B00AC584D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA1506022F1FD0B00AC584D /* SceneDelegate.swift */; };
+		1EA1506322F1FD0B00AC584D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA1506222F1FD0B00AC584D /* ViewController.swift */; };
+		1EA1506622F1FD0B00AC584D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA1506422F1FD0B00AC584D /* Main.storyboard */; };
+		1EA1506822F1FD0E00AC584D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA1506722F1FD0E00AC584D /* Assets.xcassets */; };
+		1EA1506B22F1FD0E00AC584D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA1506922F1FD0E00AC584D /* LaunchScreen.storyboard */; };
+		1EA1507622F1FD0E00AC584D /* MemeriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA1507522F1FD0E00AC584D /* MemeriaTests.swift */; };
+		1EA1508122F1FD0E00AC584D /* MemeriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA1508022F1FD0E00AC584D /* MemeriaUITests.swift */; };
+		1EC799BE22F238AF000C13E1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC799BD22F238AF000C13E1 /* Model.swift */; };
+		44A8BA78D0A12E60F0FB2A90 /* Pods_Memeria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6157FE05ED6B07A593F553 /* Pods_Memeria.framework */; };
+		88CBB11033AF96A54748DA8E /* Pods_MemeriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F638BF78838D25AE7616C427 /* Pods_MemeriaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EA1507222F1FD0E00AC584D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EA1505322F1FD0B00AC584D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA1505A22F1FD0B00AC584D;
+			remoteInfo = Memeria;
+		};
+		1EA1507D22F1FD0E00AC584D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EA1505322F1FD0B00AC584D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA1505A22F1FD0B00AC584D;
+			remoteInfo = Memeria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD392414E3F5FCFBE3DEA33 /* Pods_MemeriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemeriaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A36343B5A402138E5E362AF /* Pods-MemeriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemeriaTests.release.xcconfig"; path = "Target Support Files/Pods-MemeriaTests/Pods-MemeriaTests.release.xcconfig"; sourceTree = "<group>"; };
+		1EA1505B22F1FD0B00AC584D /* Memeria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memeria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA1505E22F1FD0B00AC584D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EA1506022F1FD0B00AC584D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1EA1506222F1FD0B00AC584D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EA1506522F1FD0B00AC584D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EA1506722F1FD0E00AC584D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EA1506A22F1FD0E00AC584D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EA1506C22F1FD0E00AC584D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA1507122F1FD0E00AC584D /* MemeriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA1507522F1FD0E00AC584D /* MemeriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeriaTests.swift; sourceTree = "<group>"; };
+		1EA1507722F1FD0E00AC584D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA1507C22F1FD0E00AC584D /* MemeriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA1508022F1FD0E00AC584D /* MemeriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeriaUITests.swift; sourceTree = "<group>"; };
+		1EA1508222F1FD0E00AC584D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC799BD22F238AF000C13E1 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3BE9C3883D35A0E3C708EF5F /* Pods-MemeriaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemeriaUITests.debug.xcconfig"; path = "Target Support Files/Pods-MemeriaUITests/Pods-MemeriaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		582D5D47768DAB4F0F9BE6C9 /* Pods-Memeria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memeria.release.xcconfig"; path = "Target Support Files/Pods-Memeria/Pods-Memeria.release.xcconfig"; sourceTree = "<group>"; };
+		68B31352523DF574288B9AF6 /* Pods-MemeriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemeriaUITests.release.xcconfig"; path = "Target Support Files/Pods-MemeriaUITests/Pods-MemeriaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A6157FE05ED6B07A593F553 /* Pods_Memeria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memeria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC2724B44F578696E924B57 /* Pods-MemeriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemeriaTests.debug.xcconfig"; path = "Target Support Files/Pods-MemeriaTests/Pods-MemeriaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D830EAB9594449E080D1848A /* Pods-Memeria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memeria.debug.xcconfig"; path = "Target Support Files/Pods-Memeria/Pods-Memeria.debug.xcconfig"; sourceTree = "<group>"; };
+		F638BF78838D25AE7616C427 /* Pods_MemeriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemeriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EA1505822F1FD0B00AC584D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A8BA78D0A12E60F0FB2A90 /* Pods_Memeria.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA1506E22F1FD0E00AC584D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168EE3D6CBD62F010E328BCB /* Pods_MemeriaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA1507922F1FD0E00AC584D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CBB11033AF96A54748DA8E /* Pods_MemeriaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EA1505222F1FD0B00AC584D = {
+			isa = PBXGroup;
+			children = (
+				1EA1505D22F1FD0B00AC584D /* Memeria */,
+				1EA1507422F1FD0E00AC584D /* MemeriaTests */,
+				1EA1507F22F1FD0E00AC584D /* MemeriaUITests */,
+				1EA1505C22F1FD0B00AC584D /* Products */,
+				93853F02DAA1304FDC3ACF52 /* Pods */,
+				E84C7EA3CD998D89A7001071 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EA1505C22F1FD0B00AC584D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EA1505B22F1FD0B00AC584D /* Memeria.app */,
+				1EA1507122F1FD0E00AC584D /* MemeriaTests.xctest */,
+				1EA1507C22F1FD0E00AC584D /* MemeriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EA1505D22F1FD0B00AC584D /* Memeria */ = {
+			isa = PBXGroup;
+			children = (
+				1EC799BD22F238AF000C13E1 /* Model.swift */,
+				1EA1505E22F1FD0B00AC584D /* AppDelegate.swift */,
+				1EA1506022F1FD0B00AC584D /* SceneDelegate.swift */,
+				1EA1506222F1FD0B00AC584D /* ViewController.swift */,
+				1EA1506422F1FD0B00AC584D /* Main.storyboard */,
+				1EA1506722F1FD0E00AC584D /* Assets.xcassets */,
+				1EA1506922F1FD0E00AC584D /* LaunchScreen.storyboard */,
+				1EA1506C22F1FD0E00AC584D /* Info.plist */,
+			);
+			path = Memeria;
+			sourceTree = "<group>";
+		};
+		1EA1507422F1FD0E00AC584D /* MemeriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EA1507522F1FD0E00AC584D /* MemeriaTests.swift */,
+				1EA1507722F1FD0E00AC584D /* Info.plist */,
+			);
+			path = MemeriaTests;
+			sourceTree = "<group>";
+		};
+		1EA1507F22F1FD0E00AC584D /* MemeriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EA1508022F1FD0E00AC584D /* MemeriaUITests.swift */,
+				1EA1508222F1FD0E00AC584D /* Info.plist */,
+			);
+			path = MemeriaUITests;
+			sourceTree = "<group>";
+		};
+		93853F02DAA1304FDC3ACF52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D830EAB9594449E080D1848A /* Pods-Memeria.debug.xcconfig */,
+				582D5D47768DAB4F0F9BE6C9 /* Pods-Memeria.release.xcconfig */,
+				AEC2724B44F578696E924B57 /* Pods-MemeriaTests.debug.xcconfig */,
+				1A36343B5A402138E5E362AF /* Pods-MemeriaTests.release.xcconfig */,
+				3BE9C3883D35A0E3C708EF5F /* Pods-MemeriaUITests.debug.xcconfig */,
+				68B31352523DF574288B9AF6 /* Pods-MemeriaUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E84C7EA3CD998D89A7001071 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A6157FE05ED6B07A593F553 /* Pods_Memeria.framework */,
+				0AD392414E3F5FCFBE3DEA33 /* Pods_MemeriaTests.framework */,
+				F638BF78838D25AE7616C427 /* Pods_MemeriaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EA1505A22F1FD0B00AC584D /* Memeria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA1508522F1FD0E00AC584D /* Build configuration list for PBXNativeTarget "Memeria" */;
+			buildPhases = (
+				1C4899C6DC574382C444A737 /* [CP] Check Pods Manifest.lock */,
+				1EA1505722F1FD0B00AC584D /* Sources */,
+				1EA1505822F1FD0B00AC584D /* Frameworks */,
+				1EA1505922F1FD0B00AC584D /* Resources */,
+				CE9A0D52860C40BEBCA77D8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memeria;
+			productName = Memeria;
+			productReference = 1EA1505B22F1FD0B00AC584D /* Memeria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EA1507022F1FD0E00AC584D /* MemeriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA1508822F1FD0E00AC584D /* Build configuration list for PBXNativeTarget "MemeriaTests" */;
+			buildPhases = (
+				7FA41A4959D809236E758037 /* [CP] Check Pods Manifest.lock */,
+				1EA1506D22F1FD0E00AC584D /* Sources */,
+				1EA1506E22F1FD0E00AC584D /* Frameworks */,
+				1EA1506F22F1FD0E00AC584D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA1507322F1FD0E00AC584D /* PBXTargetDependency */,
+			);
+			name = MemeriaTests;
+			productName = MemeriaTests;
+			productReference = 1EA1507122F1FD0E00AC584D /* MemeriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EA1507B22F1FD0E00AC584D /* MemeriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA1508B22F1FD0E00AC584D /* Build configuration list for PBXNativeTarget "MemeriaUITests" */;
+			buildPhases = (
+				6E3976A476A063E2FDB5E3A8 /* [CP] Check Pods Manifest.lock */,
+				1EA1507822F1FD0E00AC584D /* Sources */,
+				1EA1507922F1FD0E00AC584D /* Frameworks */,
+				1EA1507A22F1FD0E00AC584D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA1507E22F1FD0E00AC584D /* PBXTargetDependency */,
+			);
+			name = MemeriaUITests;
+			productName = MemeriaUITests;
+			productReference = 1EA1507C22F1FD0E00AC584D /* MemeriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EA1505322F1FD0B00AC584D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Marlon Morato";
+				TargetAttributes = {
+					1EA1505A22F1FD0B00AC584D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					1EA1507022F1FD0E00AC584D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 1EA1505A22F1FD0B00AC584D;
+					};
+					1EA1507B22F1FD0E00AC584D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 1EA1505A22F1FD0B00AC584D;
+					};
+				};
+			};
+			buildConfigurationList = 1EA1505622F1FD0B00AC584D /* Build configuration list for PBXProject "Memeria" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EA1505222F1FD0B00AC584D;
+			productRefGroup = 1EA1505C22F1FD0B00AC584D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EA1505A22F1FD0B00AC584D /* Memeria */,
+				1EA1507022F1FD0E00AC584D /* MemeriaTests */,
+				1EA1507B22F1FD0E00AC584D /* MemeriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EA1505922F1FD0B00AC584D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA1506B22F1FD0E00AC584D /* LaunchScreen.storyboard in Resources */,
+				1EA1506822F1FD0E00AC584D /* Assets.xcassets in Resources */,
+				1EA1506622F1FD0B00AC584D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA1506F22F1FD0E00AC584D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA1507A22F1FD0E00AC584D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C4899C6DC574382C444A737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Memeria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E3976A476A063E2FDB5E3A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemeriaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FA41A4959D809236E758037 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemeriaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9A0D52860C40BEBCA77D8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memeria/Pods-Memeria-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memeria/Pods-Memeria-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Memeria/Pods-Memeria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EA1505722F1FD0B00AC584D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA1506322F1FD0B00AC584D /* ViewController.swift in Sources */,
+				1EA1505F22F1FD0B00AC584D /* AppDelegate.swift in Sources */,
+				1EA1506122F1FD0B00AC584D /* SceneDelegate.swift in Sources */,
+				1EC799BE22F238AF000C13E1 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA1506D22F1FD0E00AC584D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA1507622F1FD0E00AC584D /* MemeriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA1507822F1FD0E00AC584D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA1508122F1FD0E00AC584D /* MemeriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EA1507322F1FD0E00AC584D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EA1505A22F1FD0B00AC584D /* Memeria */;
+			targetProxy = 1EA1507222F1FD0E00AC584D /* PBXContainerItemProxy */;
+		};
+		1EA1507E22F1FD0E00AC584D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EA1505A22F1FD0B00AC584D /* Memeria */;
+			targetProxy = 1EA1507D22F1FD0E00AC584D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EA1506422F1FD0B00AC584D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EA1506522F1FD0B00AC584D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EA1506922F1FD0E00AC584D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EA1506A22F1FD0E00AC584D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EA1508322F1FD0E00AC584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EA1508422F1FD0E00AC584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EA1508622F1FD0E00AC584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D830EAB9594449E080D1848A /* Pods-Memeria.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G876XF36FU;
+				INFOPLIST_FILE = Memeria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.Memeria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EA1508722F1FD0E00AC584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582D5D47768DAB4F0F9BE6C9 /* Pods-Memeria.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G876XF36FU;
+				INFOPLIST_FILE = Memeria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.Memeria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EA1508922F1FD0E00AC584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC2724B44F578696E924B57 /* Pods-MemeriaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemeriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.MemeriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memeria.app/Memeria";
+			};
+			name = Debug;
+		};
+		1EA1508A22F1FD0E00AC584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A36343B5A402138E5E362AF /* Pods-MemeriaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemeriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.MemeriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memeria.app/Memeria";
+			};
+			name = Release;
+		};
+		1EA1508C22F1FD0E00AC584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE9C3883D35A0E3C708EF5F /* Pods-MemeriaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemeriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.MemeriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memeria;
+			};
+			name = Debug;
+		};
+		1EA1508D22F1FD0E00AC584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B31352523DF574288B9AF6 /* Pods-MemeriaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemeriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.MemeriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memeria;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EA1505622F1FD0B00AC584D /* Build configuration list for PBXProject "Memeria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA1508322F1FD0E00AC584D /* Debug */,
+				1EA1508422F1FD0E00AC584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA1508522F1FD0E00AC584D /* Build configuration list for PBXNativeTarget "Memeria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA1508622F1FD0E00AC584D /* Debug */,
+				1EA1508722F1FD0E00AC584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA1508822F1FD0E00AC584D /* Build configuration list for PBXNativeTarget "MemeriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA1508922F1FD0E00AC584D /* Debug */,
+				1EA1508A22F1FD0E00AC584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA1508B22F1FD0E00AC584D /* Build configuration list for PBXNativeTarget "MemeriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA1508C22F1FD0E00AC584D /* Debug */,
+				1EA1508D22F1FD0E00AC584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EA1505322F1FD0B00AC584D /* Project object */;
+}
